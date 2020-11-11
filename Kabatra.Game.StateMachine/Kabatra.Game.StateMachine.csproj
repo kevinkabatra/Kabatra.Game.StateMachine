@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Kevin Kabatra</Authors>
+    <Company>Kevin Kabatra</Company>
+    <Description>The state machine to control the various states of the game.</Description>
+    <Copyright>2020 Kevin Kabatra</Copyright>
+    <PackageTags>State Machine, Stateless</PackageTags>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <RepositoryUrl>https://github.com/kevinkabatra/Kabatra.Game.StateMachine</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Kabatra.Common.LabelRetriever" Version="1.2.0" />
+    <PackageReference Include="Stateless" Version="5.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kabatra.Game.StateMachine", "Kabatra.Game.StateMachine\Kabatra.Game.StateMachine.csproj", "{74FF0FD5-8315-49AB-8BE5-EFCEBEE925D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kabatra.Game.StateMachine.UnitTests", "Kabatra.Game.StateMachine.UnitTests\Kabatra.Game.StateMachine.UnitTests.csproj", "{704ED7E9-B58B-47F7-A757-1542DB912068}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74FF0FD5-8315-49AB-8BE5-EFCEBEE925D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74FF0FD5-8315-49AB-8BE5-EFCEBEE925D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74FF0FD5-8315-49AB-8BE5-EFCEBEE925D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74FF0FD5-8315-49AB-8BE5-EFCEBEE925D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{704ED7E9-B58B-47F7-A757-1542DB912068}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{704ED7E9-B58B-47F7-A757-1542DB912068}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{704ED7E9-B58B-47F7-A757-1542DB912068}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{704ED7E9-B58B-47F7-A757-1542DB912068}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {97129D45-B61F-415F-981B-7347D204E89E}
+	EndGlobalSection
+EndGlobal

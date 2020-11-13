@@ -6,8 +6,8 @@
 
     public abstract class StateMachineAbstract<TState, TTrigger> : StateMachine<TState, TTrigger>
     {
-        private protected IDisplayHandler DisplayHandler;
-        private protected LabelRetriever LabelRetriever;
+        protected internal IDisplayHandler DisplayHandler;
+        protected internal LabelRetriever LabelRetriever;
 
         /// <summary>
         ///     Default constructor.

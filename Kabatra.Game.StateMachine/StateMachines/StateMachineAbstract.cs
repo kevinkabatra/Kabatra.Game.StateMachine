@@ -32,6 +32,6 @@
         /// <summary>
         ///     Sets up the state machine.
         /// </summary>
-        private protected abstract void SetupStateMachine();
+        protected internal abstract void SetupStateMachine();
     }
 }

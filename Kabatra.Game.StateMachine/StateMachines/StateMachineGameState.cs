@@ -21,7 +21,7 @@
         }
 
         /// <inheritdoc cref="StateMachineAbstract{TState,TTrigger}"/>
-        private protected sealed override void SetupStateMachine()
+        protected internal sealed override void SetupStateMachine()
         {
             ConfigureStateMachineForGameStateNone();
             ConfigureStateMachineForGameStatePlaying();
